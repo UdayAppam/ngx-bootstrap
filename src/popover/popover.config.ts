@@ -29,4 +29,5 @@ export class PopoverConfig {
   container: string;
   /** delay before showing the tooltip */
   delay = 0;
+  boundariesElement?:string;
 }
